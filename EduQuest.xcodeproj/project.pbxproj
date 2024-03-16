@@ -14,6 +14,10 @@
 		FB954E512BA4DD2400A1E97A /* EduQuestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB954E502BA4DD2400A1E97A /* EduQuestTests.swift */; };
 		FB954E5B2BA4DD2400A1E97A /* EduQuestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB954E5A2BA4DD2400A1E97A /* EduQuestUITests.swift */; };
 		FB954E5D2BA4DD2400A1E97A /* EduQuestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB954E5C2BA4DD2400A1E97A /* EduQuestUITestsLaunchTests.swift */; };
+		FB954E6C2BA4E82C00A1E97A /* indexPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB954E6B2BA4E82C00A1E97A /* indexPage.swift */; };
+		FB954E6F2BA4F42D00A1E97A /* Users.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB954E6D2BA4F42D00A1E97A /* Users.xcdatamodeld */; };
+		FB954E722BA509EA00A1E97A /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB954E702BA509EA00A1E97A /* Person+CoreDataClass.swift */; };
+		FB954E732BA509EA00A1E97A /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB954E712BA509EA00A1E97A /* Person+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		FB954E562BA4DD2400A1E97A /* EduQuestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EduQuestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB954E5A2BA4DD2400A1E97A /* EduQuestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EduQuestUITests.swift; sourceTree = "<group>"; };
 		FB954E5C2BA4DD2400A1E97A /* EduQuestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EduQuestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FB954E6B2BA4E82C00A1E97A /* indexPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = indexPage.swift; sourceTree = "<group>"; };
+		FB954E6E2BA4F42D00A1E97A /* Users.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Users.xcdatamodel; sourceTree = "<group>"; };
+		FB954E702BA509EA00A1E97A /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FB954E712BA509EA00A1E97A /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +83,8 @@
 		FB954E322BA4DD2200A1E97A = {
 			isa = PBXGroup;
 			children = (
+				FB954E702BA509EA00A1E97A /* Person+CoreDataClass.swift */,
+				FB954E712BA509EA00A1E97A /* Person+CoreDataProperties.swift */,
 				FB954E3D2BA4DD2200A1E97A /* EduQuest */,
 				FB954E4F2BA4DD2400A1E97A /* EduQuestTests */,
 				FB954E592BA4DD2400A1E97A /* EduQuestUITests */,
@@ -95,6 +105,8 @@
 		FB954E3D2BA4DD2200A1E97A /* EduQuest */ = {
 			isa = PBXGroup;
 			children = (
+				FB954E6D2BA4F42D00A1E97A /* Users.xcdatamodeld */,
+				FB954E6B2BA4E82C00A1E97A /* indexPage.swift */,
 				FB954E3E2BA4DD2200A1E97A /* EduQuestApp.swift */,
 				FB954E402BA4DD2200A1E97A /* ContentView.swift */,
 				FB954E422BA4DD2300A1E97A /* Assets.xcassets */,
@@ -259,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB954E6F2BA4F42D00A1E97A /* Users.xcdatamodeld in Sources */,
 				FB954E412BA4DD2200A1E97A /* ContentView.swift in Sources */,
+				FB954E722BA509EA00A1E97A /* Person+CoreDataClass.swift in Sources */,
+				FB954E732BA509EA00A1E97A /* Person+CoreDataProperties.swift in Sources */,
 				FB954E3F2BA4DD2200A1E97A /* EduQuestApp.swift in Sources */,
+				FB954E6C2BA4E82C00A1E97A /* indexPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -609,6 +625,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FB954E6D2BA4F42D00A1E97A /* Users.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FB954E6E2BA4F42D00A1E97A /* Users.xcdatamodel */,
+			);
+			currentVersion = FB954E6E2BA4F42D00A1E97A /* Users.xcdatamodel */;
+			name = Users.xcdatamodeld;
+			path = /Users/alumno/Desktop/EduQuest/EduQuest/Users.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FB954E332BA4DD2200A1E97A /* Project object */;
 }
